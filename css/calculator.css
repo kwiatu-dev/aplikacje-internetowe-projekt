@@ -1,0 +1,23 @@
+#div1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 150px;
+    left: 150px;
+    border: 5px solid red;
+    background-color: blanchedalmond;
+    margin: 50px;
+    padding: 10px;
+}
+
+#div2{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: calc(230px + 150px);
+    left: calc(230px + 150px);
+    border: 15px dashed green;
+    background-color: blanchedalmond;
+    margin: 50px;
+    padding: 10px;
+}

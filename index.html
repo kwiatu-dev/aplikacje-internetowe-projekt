@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Filip Kwiatkowski">
+    <title>Projekt na zaliczenie</title>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/tabs.css">
+</head>
+<body>
+    <div class="sidebar close">
+        <div class="logo-details">
+            <i class='bx bxs-pointer' ></i>
+          <span class="logo_name">Aplikacje internetowe</span>
+        </div>
+        <ul class="nav-links">
+          <li>
+            <a href="index.html">
+              <i class='bx bx-grid-alt' ></i>
+              <span class="link_name">Strona główna</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="index.html">Strona główna</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="iocn-link">
+              <a href="#">
+                <i class='bx bx-collection' ></i>
+                <span class="link_name">Projekty</span>
+              </a>
+              <i class='bx bxs-chevron-down arrow' ></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">Projekty</a></li>
+              <li><a href="calculator.html">Kalkulator</a></li>
+              <li><a href="memory.html">Memory</a></li>
+              <li><a href="puzzle.html">Puzle</a></li>
+              <li><a href="tictactoe.html">Kółko i krzyżyk</a></li>
+              <li><a href="pong.html">Pong</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="iocn-link">
+                <a href="https://github.com/kwiatu-dev" target="_blank">
+                <i class='bx bxl-github'></i>
+                <span class="link_name">Github</span>
+              </a>
+              <i class='bx bxs-chevron-down arrow'></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">Repozytoria</a></li>
+              <li><a href="https://github.com/kwiatu-dev/memory-game/" target="_blank">Memory</a></li>
+              <li><a href="https://github.com/kwiatu-dev/puzzle-game/" target="_blank">Puzle</a></li>
+              <li><a href="https://github.com/kwiatu-dev/tictactoe/" target="_blank">Kółko i krzyżyk</a></li>
+              <li><a href="https://github.com/kwiatu-dev/pong/" target="_blank">Pong</a></li>
+            </ul>
+          </li>
+        <div class="profile-details">
+          <div class="name-job">
+            <div class="profile_name">Filip Kwiatkowski</div>
+            <div class="job">Student #402061</div>
+          </div>
+        </div>
+      </li>
+    </ul>
+      </div>
+      <section class="home-section">
+        <div class="home-content">
+          <i class='bx bx-menu' ></i>
+          <span class="text">Strona główna</span>
+        </div>
+
+        <div class="additional-informations">
+          <h2>Dodatkowe informacje</h2>
+          <p>Poniżej znajdują się dodatkowe informacje związane z poszczególnymi elementami projektu. </p>
+          <br>
+          <p><b>Nawigację strony wykonał: <a href="https://www.youtube.com/watch?v=wEfaoAa99XY&t=13s" target="_blank">CodingLab</a></b></p>
+
+          <ul class="nav-tabs">
+            <li><a href="#memory" class="active">Gra Memory</a></li>
+            <li><a href="#puzzle">Gra Puzzle</a></li>
+            <li><a href="#tictactoe">Kółko i krzyżyk</a></li>
+            <li><a href="#pong">Gra Pong</a></li>
+          </ul>
+  
+          <div class="tabs-content">
+            <div id="memory" class="tab-pane active">
+              <h3>Generowanie gridu</h3>
+              <p>Skrypt zapamiętuje istniejące elementy w dokumencie, a następnie duplikuje je bez referencji. W trakcie tego procesu nadaje odpowiednie atrybuty elementom. </p>
+              <br>
+              <h3>Pozycjonowanie elementów</h3>
+              <p>Elementy są pozycjonowane względem siebie. Rozmiar siatki i ilość elementów w wierszu dostosowuje się za pomocą CSS.</p>
+              <br>
+              <h3>Losowanie</h3>
+              <p>Skrypt na początku czyści wyświetlacz, a następnie w kolejności losowej umieszcza elementy na siatce. </p>
+            </div>
+            <div id="puzzle" class="tab-pane">
+              <h3>Programowanie obiektowe</h3>
+              <p>Gra jest w pełni wykonana za pomocą projektowania obiektowego.</p>
+              <br>
+              <h3>Przesunięcie o [n] pól</h3>
+              <p>Element z obrazem można przesunać o [n] pól jeżeli w danym poziomie nie blokuje go element z obrazkiem.</p>
+              <br>
+              <h3>Ustawienia gry</h3>
+              <p>Konstruktor przyjmuje jeden argument, którym jest obiekt konfiguracyjny gry.</p>
+            </div>
+            <div id="tictactoe" class="tab-pane">
+              <h3>Programowanie obiektowe</h3>
+              <p>Gra jest w pełni wykonana za pomocą projektowania obiektowego.</p>
+              <br>
+              <h3>Ustawienia gry</h3>
+              <p>Konstruktor przyjmuje jeden argument, którym jest obiekt konfiguracyjny gry.</p>
+              <br>
+              <h3>Dowolny rozmiar siatki</h3>
+              <p>Gra może działać na siatce 3x3 jak i również [n]x[n]</p>
+            </div>
+            <div id="pong" class="tab-pane">
+              <h3>Programowanie obiektowe</h3>
+              <p>Gra jest w pełni wykonana za pomocą projektowania obiektowego.</p>
+              <br>
+              <h3>Ustawienia gry</h3>
+              <p>Konstruktor przyjmuje jeden argument, którym jest obiekt konfiguracyjny gry.</p>
+              <br>
+              <h3>Gra dla dwóch graczy</h3>
+              <p>Gracze mogą porusząć bandami za pomocą wyznaczonych klawiszy. Gracz zdobywa punkt jeżeli piłka dotknie bocznej ściany przeciwnika. </p>
+              <br>
+              <h3>Poruszanie bandami</h3>
+              <p>Poruszanie bandami odbywa się za pomocą [ArrowUp], [ArrowDown] - gracz pierwszy, [KeyW], [KeyS] - gracz drugi </p>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+      <script src="js/app.js"></script>
+      <script src="js/tabs.js"></script>
+    </body>
+    </html>
+    

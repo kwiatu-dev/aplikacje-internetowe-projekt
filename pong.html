@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Filip Kwiatkowski">
+    <title>Projekt na zaliczenie - pong</title>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/pong.css">
+</head>
+<body onload="initGame()">
+    <div class="sidebar close">
+        <div class="logo-details">
+            <i class='bx bxs-pointer' ></i>
+          <span class="logo_name">Aplikacje internetowe</span>
+        </div>
+        <ul class="nav-links">
+          <li>
+            <a href="index.html">
+              <i class='bx bx-grid-alt' ></i>
+              <span class="link_name">Strona główna</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="index.html">Strona główna</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="iocn-link">
+              <a href="#">
+                <i class='bx bx-collection' ></i>
+                <span class="link_name">Projekty</span>
+              </a>
+              <i class='bx bxs-chevron-down arrow' ></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">Projekty</a></li>
+              <li><a href="calculator.html">Kalkulator</a></li>
+              <li><a href="memory.html">Memory</a></li>
+              <li><a href="puzzle.html">Puzle</a></li>
+              <li><a href="tictactoe.html">Kółko i krzyżyk</a></li>
+              <li><a href="pong.html">Pong</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="iocn-link">
+                <a href="https://github.com/kwiatu-dev" target="_blank">
+                <i class='bx bxl-github'></i>
+                <span class="link_name">Github</span>
+              </a>
+              <i class='bx bxs-chevron-down arrow'></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">Repozytoria</a></li>
+              <li><a href="https://github.com/kwiatu-dev/memory-game/" target="_blank">Memory</a></li>
+              <li><a href="https://github.com/kwiatu-dev/puzzle-game/" target="_blank">Puzle</a></li>
+              <li><a href="https://github.com/kwiatu-dev/tictactoe/" target="_blank">Kółko i krzyżyk</a></li>
+              <li><a href="https://github.com/kwiatu-dev/pong/" target="_blank">Pong</a></li>
+            </ul>
+          </li>
+        <div class="profile-details">
+          <div class="name-job">
+            <div class="profile_name">Filip Kwiatkowski</div>
+            <div class="job">Student #402061</div>
+          </div>
+        </div>
+      </li>
+    </ul>
+      </div>
+      <section class="home-section">
+        <div class="home-content">
+          <i class='bx bx-menu' ></i>
+          <span class="text">Pong</span>
+        </div>
+
+        <div class="project-wrapper">
+          <div class="points player-one">0</div>
+          <div class="points player-two">0</div>
+        </div>
+
+      </section>
+      <script src="js/app.js"></script>
+      <script src="js/pong.js"></script>
+    </body>
+    </html>
+    
